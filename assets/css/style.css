@@ -5,7 +5,7 @@ body {
 }
   
 .game-name {
-    background-color:orange;
+    background-color: rgba(253, 227, 167, 0.3);
     width: 250px;
     height: 75px;
     color: white;
@@ -18,7 +18,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     height: 400px;
-    background-color: aqua;
+    background-color: rgb(255,99,71, 0.3);
 
 }
 .score-box {
@@ -30,23 +30,26 @@ body {
 }
 
 .win-loss {
-    margin-top: -125px;
+    margin-top: 15px;
     margin-right: 130px;
     width: 125px;
     height: 125px;
-    float: right;
+    float: left;
     background-color: yellow;
 }
 
 .protoss {
+    margin-top: 153px;
     width: 100px;
 }
 
 .terran {
+    margin-top: 153px;
     width: 100px;
 }
 
 .zerg {
+    margin-top: 153px;
     width: 100px;
 }
 
