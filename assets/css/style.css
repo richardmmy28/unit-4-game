@@ -2,10 +2,8 @@ body {
     background-image: url(../images/terran-marine.jpg);
     background-repeat: no-repeat;
     height: 1080px;
-  }
+}
   
- 
-
 .game-name {
     background-color:orange;
     width: 250px;
@@ -17,24 +15,39 @@ body {
 }
 
 .rules {
+    display: inline-block;
     margin-top: 10px;
     height: 400px;
     background-color: aqua;
+
 }
 .score-box {
-    margin-top: 200px;
+    float: left;
+    margin-top: 15px;
     width: 250px;
     height: 125px;
     background-color: darkgreen;
 }
 
 .win-loss {
-    Margin-top: -125px;
+    margin-top: -125px;
     margin-right: 130px;
     width: 125px;
     height: 125px;
     float: right;
     background-color: yellow;
+}
+
+.protoss {
+    width: 100px;
+}
+
+.terran {
+    width: 100px;
+}
+
+.zerg {
+    width: 100px;
 }
 
 
