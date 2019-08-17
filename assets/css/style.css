@@ -1,0 +1,42 @@
+body {
+    background-image: url(../images/terran-marine.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+  }
+  
+ 
+
+.game-name {
+    background-color:orange;
+    width: 250px;
+    height: 75px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.rules {
+    margin-top: 10px;
+    height: 400px;
+    background-color: aqua;
+}
+.score-box {
+    margin-top: 200px;
+    width: 250px;
+    height: 125px;
+    background-color: darkgreen;
+}
+
+.win-loss {
+    Margin-top: -125px;
+    margin-right: 130px;
+    width: 125px;
+    height: 125px;
+    float: right;
+    background-color: yellow;
+}
+
+
+    
+
