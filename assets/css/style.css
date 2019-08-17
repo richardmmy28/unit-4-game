@@ -19,23 +19,24 @@ body {
     margin-top: 10px;
     height: 400px;
     background-color: rgb(255,99,71, 0.3);
+    color: white;
 
 }
 .score-box {
     float: left;
-    margin-top: 15px;
     width: 250px;
     height: 125px;
-    background-color: darkgreen;
+    background-color: rgba(16, 105, 2, .6);
+    padding-left: 15px;
 }
 
 .win-loss {
     margin-top: 15px;
-    margin-right: 130px;
+    margin-left: 270px;
+    margin-right: 300px;
     width: 125px;
     height: 125px;
-    float: left;
-    background-color: yellow;
+    background-color: 	rgba(241, 110, 241, 0.4)
 }
 
 .protoss {
@@ -46,11 +47,26 @@ body {
 .terran {
     margin-top: 153px;
     width: 100px;
+    padding-left: 25px;
 }
 
 .zerg {
     margin-top: 153px;
     width: 100px;
+    padding-left: 25px;
+}
+
+.icons {
+    display: inline-block;
+    margin-top: -136px;
+    padding-left: 25px;
+}
+
+.total-score {
+    color: white;
+    width: 500px;
+    height: 75px;
+    background-color: rgb(255,255,0, .5)
 }
 
 
